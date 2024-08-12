@@ -7,5 +7,16 @@ header{
     background-color: #73b4ff;
     padding: 28px 2%;
     display: flex;
-    justify-content: space-bte
+    justify-content: space-between;
+}
+.info-header{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 10vh;
+}
+.info-header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
 }
