@@ -3,3 +3,9 @@
     padding:0;
     box-sizing: border-box;
 }
+header{
+    background-color: #73b4ff;
+    padding: 28px 2%;
+    display: flex;
+    justify-content: space-bte
+}
