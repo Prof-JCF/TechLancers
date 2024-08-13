@@ -5,7 +5,7 @@
 }
 header{
     background-color: #73b4ff;
-    padding: 28px 2%;
+    padding: 15px 2%;
     display: flex;
     justify-content: space-between;
 }
@@ -13,10 +13,24 @@ header{
     color: white;
     display: flex;
     justify-content: space-around;
-    width: 10vh;
+    width: 5vh;
 }
-.info-header img{
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
+.info-header svg{
+    align-items: center;
+    margin: 20px;
+    color: white;
+}
+.icons-header{
+    margin-left: 15px;
+}
+.material-icons{
+    color: white;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+#desempenho{
+    display: flex;
+    background-color: black;
 }
