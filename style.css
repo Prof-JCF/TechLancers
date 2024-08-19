@@ -1,20 +1,60 @@
-#interface{
-    text-align: center;
-    background-color: red;
-
-}
-
-.login {
-    
-}
-
-.container-senha{
-    background-color: blue;
-    display: flex;
-}
-
 
 .container-body{
-    align-items: center;
-    background-color: blueviolet;
+    background-color: blue;
+    display: flex;
+    height: 100vh;
+    align-items: center; 
+    justify-content: center; 
+}
+    
+.container-body .Login {
+    width: 400px;                /* Width of the rectangle */
+    height: 400px;               /* Height of the rectangle */
+    background-color: yellow;    /* Background color */
+    position: relative;
+    display: flex;               /* Enables Flexbox layout */
+    flex-direction: column;      /* Aligns children vertically */
+    justify-content: center;     /* Centers elements vertically within the rectangle */
+    align-items: center;         /* Centers elements horizontally within the rectangle */
+    padding: 20px;
+    gap: 10px;                   /* Space between the elements */
+    border-radius: 15px;         /* Rounded corners (optional) */
+    margin-right: 20px;
+}
+
+.container-body .Informacao {
+    width: 750px;                /* Width of the rectangle */
+    height: 400px;               /* Height of the rectangle */
+    background-color: red;    /* Background color */
+    position: relative;
+    display: flex;               /* Enables Flexbox layout */
+    flex-direction: column;      /* Aligns children vertically */
+    justify-content: center;     /* Centers elements vertically within the rectangle */
+    align-items: center;         /* Centers elements horizontally within the rectangle */
+    padding: 20px;
+    gap: 10px;                   /* Space between the elements */
+    border-radius: 15px;         /* Rounded corners (optional) */
+
+}
+
+input {
+    width: 80%;                  /* Input width relative to the rectangle */
+    padding: 10px;
+    border: 1px solid #ccc;      /* Light border */
+    border-radius: 5px;          /* Rounded corners */
+    box-sizing: border-box;      /* Ensures padding is included in width */
+}
+
+button {
+    width: 50%;                  /* Button width relative to the rectangle */
+    padding: 10px;
+    background-color: #4CAF50;   /* Button background color */
+    color: white;                /* Button text color */
+    border: none;
+    border-radius: 5px;          /* Rounded corners */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;   /* Button background color on hover */
 }
