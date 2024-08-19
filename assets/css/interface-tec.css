@@ -30,12 +30,26 @@ header{
     margin-left: 10px;
 }
 
-#desempenho {
+  #desempenho{
     display: flex;
     flex-direction: column;
     padding: 1%;
   }
-
+  #notificacao{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+  }
+  #gestao-de-cliente{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+  }
+  #gestao-de-pedido{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+  }
   .resumo-de-vendas button{
     padding: 18px 24px;
     border-radius: 8px;
@@ -63,10 +77,10 @@ header{
     background-color: white; /* Green */
     color: black;
   }
-  .gestao-de-cliente{
+  .cadastro-de-cliente{
     margin-top: 5px;
   }
-  .gestao-de-cliente button{
+  .cadastro-de-cliente button{
     padding: 18px 24px;
     border-radius: 8px;
     transition-duration: 0.4s;
@@ -74,14 +88,14 @@ header{
     color: white;
     border: none;
   }
-  .gestao-de-cliente button:hover{
+  .cadastro-de-cliente button:hover{
     background-color: white; /* Green */
     color: black;
   }
-  .gestao-de-pedido{
+  .criacao-e-gerenciamento{
     margin-top: 5px;
   }
-  .gestao-de-pedido button{
+  .criacao-e-gerenciamento button{
     padding: 18px 24px;
     border-radius: 8px;
     transition-duration: 0.4s;
@@ -89,22 +103,7 @@ header{
     color: white;
     border: none;
   }
-  .gestao-de-pedido button:hover{
-    background-color: white; /* Green */
-    color: black;
-  }
-  .relatorio-e-analise{
-    margin-top: 5px;
-  }
-  .relatorio-e-analise button{
-    padding: 18px 24px;
-    border-radius: 8px;
-    transition-duration: 0.4s;
-    background-color: #04AA6D;
-    color: white;
-    border: none;
-  }
-  .relatorio-e-analise button:hover{
+  .criacao-e-gerenciamento button:hover{
     background-color: white; /* Green */
     color: black;
   }
