@@ -1,12 +1,20 @@
-.Login {
+#interface{
     text-align: center;
-    justify-content: center;
+    background-color: red;
+
 }
-.Login {
+
+.login {
     
 }
 
-.Entrar{
-    text-align: center;
+.container-senha{
+    background-color: blue;
+    display: flex;
 }
 
+
+.container-body{
+    align-items: center;
+    background-color: blueviolet;
+}
