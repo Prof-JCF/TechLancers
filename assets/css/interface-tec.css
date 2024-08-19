@@ -63,3 +63,48 @@ header{
     background-color: white; /* Green */
     color: black;
   }
+  .gestao-de-cliente{
+    margin-top: 5px;
+  }
+  .gestao-de-cliente button{
+    padding: 18px 24px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  .gestao-de-cliente button:hover{
+    background-color: white; /* Green */
+    color: black;
+  }
+  .gestao-de-pedido{
+    margin-top: 5px;
+  }
+  .gestao-de-pedido button{
+    padding: 18px 24px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  .gestao-de-pedido button:hover{
+    background-color: white; /* Green */
+    color: black;
+  }
+  .relatorio-e-analise{
+    margin-top: 5px;
+  }
+  .relatorio-e-analise button{
+    padding: 18px 24px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  .relatorio-e-analise button:hover{
+    background-color: white; /* Green */
+    color: black;
+  }
