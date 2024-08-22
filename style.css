@@ -1,64 +1,77 @@
-
-.container-body{
+/* Configura o fundo da página e o alinhamento do container */
+.container-body {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 44%, rgba(86,222,250,1) 100%);
     display: flex;
     height: 100vh;
-    align-items: center; 
-    justify-content: center; 
-}
+    align-items: center;
+    justify-content: center;
+    margin: 0;
     
+}
+
+img{
+    
+    padding: 20px;
+}
+
+/* Estilo do container .Login */
 .container-body .Login {
-    width: 400px;                /* Width of the rectangle */
-    height: 400px;               /* Height of the rectangle */
+    width: 400px;
+    height: 400px;
     background-color: rgba(255, 255, 255, 0.3);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Sombra esbranquiçada */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     position: relative;
-    display: flex;               /* Enables Flexbox layout */
-    flex-direction: column;      /* Aligns children vertically */
-    /* justify-content: center;     Centers elements vertically within the rectangle */
-    align-items: center;         /* Centers elements horizontally within the rectangle */
-    padding-top: 180px;
-    /* padding: 20px; */
-    gap: 10px;                   /* Space between the elements */
-    border-radius: 15px;         /* Rounded corners (optional) */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 15px;
     margin-right: 20px;
 }
 
+/* Estilo do container .Informacao */
 .container-body .Informacao {
-    width: 750px;                /* Width of the rectangle */
-    height: 400px;               /* Height of the rectangle */
+    width: 750px;
+    height: 400px;
     background-color: rgba(255, 255, 255, 0.3);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Sombra esbranquiçada */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     position: relative;
-    display: flex;               /* Enables Flexbox layout */
-    flex-direction: column;      /* Aligns children vertically */
-    justify-content: center;     /* Centers elements vertically within the rectangle */
-    align-items: center;         /* Centers elements horizontally within the rectangle */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
-    gap: 10px;                   /* Space between the elements */
-    border-radius: 15px;         /* Rounded corners (optional) */
-
+    gap: 10px;
+    border-radius: 15px;
+    overflow: hidden; /* Garante que a barra animada fique dentro do container */
 }
 
+/* Estilo dos inputs */
 input {
-    width: 80%;                  /* Input width relative to the rectangle */
+    width: 80%;
     padding: 10px;
-    border: 1px solid #ccc;      /* Light border */
-    border-radius: 5px;          /* Rounded corners */
-    box-sizing: border-box;      /* Ensures padding is included in width */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
+/* Estilo dos botões */
 button {
-    width: 50%;                  /* Button width relative to the rectangle */
+    width: 50%;
     padding: 10px;
-    background-color: #4CAF50;   /* Button background color */
-    color: white;                /* Button text color */
+    background-color: #4CAF50;
+    color: white;
     border: none;
-    border-radius: 5px;          /* Rounded corners */
+    border-radius: 5px;
     cursor: pointer;
 }
 
+/* Efeito hover do botão */
 button:hover {
-    background-color: #45a049;   /* Button background color on hover */
+    background-color: #45a049;
 }
+
+
+
