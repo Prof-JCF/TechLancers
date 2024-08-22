@@ -108,38 +108,3 @@ header{
     background-color: white; /* Green */
     color: black;
   }
-=======
-#desempenho {
-  display: flex;
-  flex-direction: column;
-  padding: 1%;
-}
-
-.resumo-de-vendas button{
-  padding: 18px 24px;
-  border-radius: 8px;
-  transition-duration: 0.4s;
-  background-color: #04AA6D;
-  color: white;
-  border: none;
-}
-.resumo-de-vendas button:hover{
-  background-color: white; /* Green */
-  color: black;
-}
-.notificacao{
-  margin-top: 5px;
-}
-.notificacao button{
-  padding: 18px 24px;
-  border-radius: 8px;
-  transition-duration: 0.4s;
-  background-color: #04AA6D;
-  color: white;
-  border: none;
-}
-.notificacao button:hover{
-  background-color: white; /* Green */
-  color: black;
-}
->>>>>>> refs/remotes/origin/Guilherme
