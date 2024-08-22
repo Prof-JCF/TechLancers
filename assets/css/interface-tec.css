@@ -1,65 +1,65 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 header{
-    background-color: #73b4ff;
-    padding: 15px 2%;
-    display: flex;
-    justify-content: space-between;
+  background-color: #73b4ff;
+  padding: 15px 2%;
+  display: flex;
+  justify-content: space-between;
 }
 .info-header{
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    width: 5vh;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 5vh;
 }
 .info-header svg{
-    align-items: center;
-    margin: 20px;
-    color: white;
+  align-items: center;
+  margin: 20px;
+  color: white;
 }
 .icons-header{
-    margin-left: 15px;
+  margin-left: 15px;
 }
 .material-icons{
-    color: white;
-    width: 20px;
-    height: 20px;
-    margin-left: 10px;
+  color: white;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
 }
 
 #desempenho {
-    display: flex;
-    flex-direction: column;
-    padding: 1%;
-  }
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+}
 
-  .resumo-de-vendas button{
-    padding: 18px 24px;
-    border-radius: 8px;
-    transition-duration: 0.4s;
-    background-color: #04AA6D;
-    color: white;
-    border: none;
-  }
-  .resumo-de-vendas button:hover{
-    background-color: white; /* Green */
-    color: black;
-  }
-  .notificacao{
-    margin-top: 5px;
-  }
-  .notificacao button{
-    padding: 18px 24px;
-    border-radius: 8px;
-    transition-duration: 0.4s;
-    background-color: #04AA6D;
-    color: white;
-    border: none;
-  }
-  .notificacao button:hover{
-    background-color: white; /* Green */
-    color: black;
-  }
+.resumo-de-vendas button{
+  padding: 18px 24px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+.resumo-de-vendas button:hover{
+  background-color: white; /* Green */
+  color: black;
+}
+.notificacao{
+  margin-top: 5px;
+}
+.notificacao button{
+  padding: 18px 24px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+.notificacao button:hover{
+  background-color: white; /* Green */
+  color: black;
+}
