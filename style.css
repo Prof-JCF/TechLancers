@@ -1,22 +1,17 @@
 /* Configura o fundo da página e o alinhamento do container */
 .container-body {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 44%, rgba(86,222,250,1) 100%);
+   background: rgb(2,0,36);*/
+   background-color: linear-gradient(90deg, rgb(0, 108, 141) 0%, rgba(9,9,121,1) 44%, rgb(0, 55, 66) 100%);
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
     margin: 0;
-    
 }
 
-img{
-    height: 250px;
-    background-color:rgb(0, 0, 0);
-    border-radius: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+/* Estilo das imagens */
+img {
+    height: 190px;
 }
 
 /* Estilo do container .Login */
@@ -28,6 +23,7 @@ img{
     position: relative;
     display: flex;
     flex-direction: column;
+    padding: 10px;
     align-items: center;
     gap: 10px;
     border-radius: 15px;
@@ -58,10 +54,7 @@ input {
     border: 1px solid #000000fa;
     border-radius: 5px;
     box-sizing: border-box;
-    
 }
-
-
 
 /* Estilo dos botões */
 button {
@@ -78,13 +71,21 @@ button {
 button:hover {
     background-color: #45a049;
 }
- a{
-    text-decoration: none;
-    color: white
- }
 
- h2{
+/* Estilo dos links */
+
+/* Estilo dos títulos */
+h2 {
     color: white;
- }
+}
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    background-color: crimson;
+    margin-top: 0;
+}
 
