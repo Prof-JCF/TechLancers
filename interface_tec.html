@@ -98,6 +98,13 @@
         </div>
         
     </section>
+    <script>
+        document.querySelector('.content-1').addEventListener('click', function(event) {
+            event.preventDefault();  // Previne o comportamento padrão do link
+            var content = document.getElementById('content-1');
+            content.classList.toggle('show');
+        });
+    </script>
 </body>
 </html>
 
