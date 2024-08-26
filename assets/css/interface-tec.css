@@ -3,106 +3,119 @@
   padding:0;
   box-sizing: border-box;
 }
+html,body{
+  height: 100%;
+}
 header{
   background-color: #73b4ff;
-  padding: 15px 2%;
+  padding: 10px 2%;
   display: flex;
   justify-content: space-between;
 }
 .info-header{
-  color: white;
+  color: rgb(255, 255, 255);
   display: flex;
-  justify-content: space-around;
-  width: 5vh;
 }
-.info-header svg{
-  align-items: center;
-  margin: 20px;
-  color: white;
+.logo h3{
+  font-size: 28px;
+}
+.logo h3:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.info-header img{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 0 8px;
+}
+.info-header span{
+  margin: 10px 10px 0px 0px;
 }
 .icons-header{
-  margin-left: 15px;
+  margin-left: 10px;
 }
+
 .material-icons{
-  color: white;
+  color: rgb(255, 255, 255);
   width: 20px;
   height: 20px;
   margin-left: 10px;
+  cursor: pointer;
 }
-  #desempenho{
-    display: flex;
-    flex-direction: column;
-    padding: 1%;
-  }
-  #notificacao{
-    display: flex;
-    flex-direction: column;
-    padding: 1%;
-  }
-  #gestao-de-cliente{
-    display: flex;
-    flex-direction: column;
-    padding: 1%;
-  }
-  #gestao-de-pedido{
-    display: flex;
-    flex-direction: column;
-    padding: 1%;
-  }
-  .resumo-de-vendas button{
-    padding: 18px 24px;
-    border-radius: 8px;
-    transition-duration: 0.4s;
-    background-color: #04AA6D;
-    color: white;
-    border: none;
-  }
-  .resumo-de-vendas button:hover{
-    background-color: white; /* Green */
-    color: black;
-  }
-  .notificacao{
-    margin-top: 5px;
-  }
-  .notificacao button{
-    padding: 18px 24px;
-    border-radius: 8px;
-    transition-duration: 0.4s;
-    background-color: #04AA6D;
-    color: white;
-    border: none;
-  }
-  .notificacao button:hover{
-    background-color: white; /* Green */
-    color: black;
-  }
-  .cadastro-de-cliente{
-    margin-top: 5px;
-  }
-  .cadastro-de-cliente button{
-    padding: 18px 24px;
-    border-radius: 8px;
-    transition-duration: 0.4s;
-    background-color: #04AA6D;
-    color: white;
-    border: none;
-  }
-  .cadastro-de-cliente button:hover{
-    background-color: white; /* Green */
-    color: black;
-  }
-  .criacao-e-gerenciamento{
-    margin-top: 5px;
-  }
-  .criacao-e-gerenciamento button{
-    padding: 18px 24px;
-    border-radius: 8px;
-    transition-duration: 0.4s;
-    background-color: #04AA6D;
-    color: white;
-    border: none;
-  }
-  .criacao-e-gerenciamento button:hover{
-    background-color: white; /* Green */
-    color: black;
-  }
+.material-icons:hover{
+  opacity: 0.7;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.sidebar{
+  width: 20%;
+  background-color: white;
+  height: 100%;
+}
+.sidebar a:hover{
+  border-left: 6px solid #73b4ff;
+  background-color: #d2d5d8;
+  color: rgb(44, 44, 44);
+  font-weight: bold;
+}
+.sidebar a:hover > span{
+  color: black;
+
+}
+.sidebar h3{
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  margin: 10px;
+}
+.sidebar a{
+  display: block;
+  text-decoration: none;
+  margin-left: 15px;
+  color: #999a9b;
+}
+.sidebar a > span{
+  color: #999a9b;
+  margin-right: 10px;
+}
+#content-1{
+  width: 80%;
+  background-color: #d2d5d8;
+  padding: 20px;
+}
+.titulo-secao{
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+h2{
+  font-size: 28px;
+}
+
+hr{
+  color: #02cca0;
+  border: 2px solid #02cca0;
+}
+h3{
+  font-size: 18px;
+}
+
+.box-info{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.box-info-single{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+  margin: 0 10px;
+  padding: 20px;
+}
