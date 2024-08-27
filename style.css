@@ -1,13 +1,16 @@
 /* Configura o fundo da página e o alinhamento do container */
 .container-body {
-   background: rgb(2,0,36);*/
-   background-color: linear-gradient(90deg, rgb(0, 108, 141) 0%, rgba(9,9,121,1) 44%, rgb(0, 55, 66) 100%);
+    /*background-image: url("Tech Lancers - Simple.png");*/
+    background:linear-gradient(90deg, rgb(0, 108, 141) 0%, rgba(9,9,121,1) 44%, rgb(0, 55, 66) 100%);  
+    /*background-repeat: no-repeat;*/
+   /* background-position: center;*/
     display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center;
     margin: 0;
 }
+
 
 /* Estilo das imagens */
 img {
@@ -37,21 +40,19 @@ img {
     background-color: rgba(255, 255, 255, 0.3);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 20px;
+    justify-content: center;
     gap: 10px;
     border-radius: 15px;
-    overflow: hidden; /* Garante que a barra animada fique dentro do container */
 }
 
 /* Estilo dos inputs */
 input {
-    width: 80%;
+    width: 100%;
     padding: 10px;
-    border: 1px solid #000000fa;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid;
+    opacity: 85%;
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -69,23 +70,29 @@ button {
 
 /* Efeito hover do botão */
 button:hover {
-    background-color: #45a049;
+    background-color: #24f724;
 }
 
 /* Estilo dos links */
 
 /* Estilo dos títulos */
-h2 {
-    color: white;
+
+#titulo1 {
+    text-align: center;
+    background-image:-webkit-linear-gradient(left,rgb(70, 209, 255), rgb(1, 1, 255));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
 }
+
+h2 {
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
 
 a{
-    text-decoration: none;
-    color: white;
+    text-align: center;
 }
-
-h1 {
-    background-color: crimson;
-    margin-top: 0;
-}
-
