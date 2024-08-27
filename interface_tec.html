@@ -37,13 +37,13 @@
             <a class="content-1" href="#content-1"><span class="material-icons">
                 home
                 </span>Dashboard</a>
-            <a href="#content-2"><span class="material-icons">
+            <a class="content-2" href="#content-2"><span class="material-icons">
                 home
                 </span>Relatorio</a>
-            <a href="#"><span class="material-icons">
+            <a class="content-3" href="#content-3"><span class="material-icons">
                 home
                 </span>Relatorio</a>
-            <a href="#"><span class="material-icons">
+            <a class="content-4" href="#content-4"><span class="material-icons">
                 home
                 </span>Relatorio</a>
             <br/>
@@ -97,14 +97,19 @@
             </div>
         </div>
         
+        <div id="content-2">
+            <h2>seção-2</h2>
+        </div>
+
+        <div id="content-3">
+            <h2>seção-3</h2>
+        </div>
+
+        <div id="content-4">
+            <h2>seção-4</h2>
+        </div>
+
     </section>
-    <script>
-        document.querySelector('.content-1').addEventListener('click', function(event) {
-            event.preventDefault();  // Previne o comportamento padrão do link
-            var content = document.getElementById('content-1');
-            content.classList.toggle('show');
-        });
-    </script>
 </body>
 </html>
 
