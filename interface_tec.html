@@ -34,16 +34,16 @@
     <section class="main">
         <div class="sidebar">
             <h3>Nome</h3>
-            <a class="content-1" href="#content-1"><span class="material-icons">
+            <a class="content-1" href="#content-1" onclick="showSection('content-1')"><span class="material-icons">
                 home
                 </span>Dashboard</a>
-            <a class="content-2" href="#content-2"><span class="material-icons">
+            <a class="content-2" href="#content-2" onclick="showSection('content-2')"><span class="material-icons">
                 home
                 </span>Relatorio</a>
-            <a class="content-3" href="#content-3"><span class="material-icons">
+            <a class="content-3" href="#content-3" onclick="showSection('content-3')"><span class="material-icons">
                 home
                 </span>Relatorio</a>
-            <a class="content-4" href="#content-4"><span class="material-icons">
+            <a class="content-4" href="#content-4" onclick="showSection('content-4')"><span class="material-icons">
                 home
                 </span>Relatorio</a>
             <br/>
@@ -110,6 +110,26 @@
         </div>
 
     </section>
+    <script>
+        function showSection(id) {
+            // Oculta todas as seções
+            var sections = document.querySelectorAll('.main > div[id^="content-"]');
+            sections.forEach(function(section) {
+                section.style.display = 'none';
+            });
+    
+            // Mostra a seção desejada
+            var sectionToShow = document.getElementById(id);
+            if (sectionToShow) {
+                sectionToShow.style.display = 'block';
+            }
+        }
+    
+        // Inicialmente, exibe a primeira seção
+        document.addEventListener('DOMContentLoaded', function() {
+            showSection('content-1'); // Altere para o ID da seção que você deseja exibir por padrão
+        });
+    </script>
 </body>
 </html>
 
