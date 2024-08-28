@@ -6,6 +6,9 @@
 html,body{
   height: 100%;
 }
+.main > div[id^="content-"] {
+  display: none;
+}
 header{
   background-color: #73b4ff;
   padding: 10px 2%;
@@ -119,3 +122,4 @@ h3{
   margin: 0 10px;
   padding: 20px;
 }
+
