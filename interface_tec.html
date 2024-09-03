@@ -7,17 +7,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/interface-tec.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="assets/js/interface_tec.js"></script>
 </head>
 <body>
     <header>
         <div class="info-header">
             <div class="logo">
                 <h3>TechLancer</h3>
-            </div>
-            <div class="icons-header">
-                <span class="material-icons">
-                    search
-                </span>
             </div>
         </div>
         <div class="info-header">
@@ -29,98 +25,369 @@
                 </span>
             <img src="/assets/imagens/logo.jpg">
         </div>
-    </header>
-     
+    </header>   
     <section class="main">
         <div class="sidebar">
-            <h3>Nome</h3>
-            <a class="content-1" href="#content-1" onclick="showSection('content-1')"><span class="material-icons">
-                home
-                </span>Dashboard</a>
-            <a class="content-2" href="#content-2" onclick="showSection('content-2')"><span class="material-icons">
-                home
-                </span>Gestão de Leads</a>
-            <a class="content-3" href="#content-3" onclick="showSection('content-3')"><span class="material-icons">
-                home
-                </span>Pedidos</a>
-            <a class="content-4" href="#content-4" onclick="showSection('content-4')"><span class="material-icons">
-                home
-                </span>Relatorio</a>
-            <a class="content-5" href="#content-5" onclick="showSection('content-5')"><span class="material-icons">
-                home
-                </span>Suporte</a>
+            <h3>Tech</h3>
+            <hr>
+            <a class="content-1" href="#content-1" onclick="showSection('content-1')">Dashboard</a>
+            <a class="content-2" href="#content-2" onclick="showSection('content-2')">Gestão de Clientes</a>
+            <a class="content-3" href="#content-3" onclick="showSection('content-3')">Gestão de Pedidos</a>
+            <a class="content-4" href="#content-4" onclick="showSection('content-4')">Relatório e Análise</a>
+            <a class="content-5" href="#content-5" onclick="showSection('content-5')">Suporte</a>
             <br/>
             <hr>
         </div>
-        
        <div id="content-1">
             <div class="titulo-secao">
-                <h2>Dashboard</h2>
+                <h2>Seja Bem Vindo!</h2>
                 <hr>
-                <p> / TechLancer</p>
             </div>            
             
             <div class="box-info">
                 <div style="background: linear-gradient(45deg, #ff0000, rgb(255, 255, 255));" class="box-info-single">
                     <div class="info-text">
-                        <h3>Total Vendas</h3>
+                        <h3>Vendas Realizadas</h3>
                         <p>R$1.000</p>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#5f6368"><path d="M560-440q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35ZM280-320q-33 0-56.5-23.5T200-400v-320q0-33 23.5-56.5T280-800h560q33 0 56.5 23.5T920-720v320q0 33-23.5 56.5T840-320H280Zm80-80h400q0-33 23.5-56.5T840-480v-160q-33 0-56.5-23.5T760-720H360q0 33-23.5 56.5T280-640v160q33 0 56.5 23.5T360-400Zm440 240H120q-33 0-56.5-23.5T40-240v-440h80v440h680v80ZM280-400v-320 320Z"/></svg>
                 </div>
                 <div style="background: linear-gradient(45deg, #009675, rgb(255, 255, 255));"class="box-info-single">
                     <div class="info-text">
-                        <h3>Total Vendas</h3>
-                        <p>R$1.000</p>
+                        <h3>Metas Atingidas</h3>
+                        <p></p>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#5f6368"><path d="M560-440q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35ZM280-320q-33 0-56.5-23.5T200-400v-320q0-33 23.5-56.5T280-800h560q33 0 56.5 23.5T920-720v320q0 33-23.5 56.5T840-320H280Zm80-80h400q0-33 23.5-56.5T840-480v-160q-33 0-56.5-23.5T760-720H360q0 33-23.5 56.5T280-640v160q33 0 56.5 23.5T360-400Zm440 240H120q-33 0-56.5-23.5T40-240v-440h80v440h680v80ZM280-400v-320 320Z"/></svg>
                 </div>
                 <div style="background: linear-gradient(45deg, #006eff, rgb(255, 255, 255));" class="box-info-single">
                     <div class="info-text">
-                        <h3>Total Vendas</h3>
-                        <p>R$1.000</p>
+                        <h3>Desempenho</h3>
+                        <p>80.8%</p>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#5f6368"><path d="M560-440q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35ZM280-320q-33 0-56.5-23.5T200-400v-320q0-33 23.5-56.5T280-800h560q33 0 56.5 23.5T920-720v320q0 33-23.5 56.5T840-320H280Zm80-80h400q0-33 23.5-56.5T840-480v-160q-33 0-56.5-23.5T760-720H360q0 33-23.5 56.5T280-640v160q33 0 56.5 23.5T360-400Zm440 240H120q-33 0-56.5-23.5T40-240v-440h80v440h680v80ZM280-400v-320 320Z"/></svg>
                 </div>
             </div>
+            <br>
+            <!-- Notificações -->
+            <div class="section">
+                <h2>Notificações</h2>
+                <hr>
+                <br>
+                <div class="notification-item">
+                    <h3>Lead Novo</h3>
+                    <p>Você recebeu um novo lead. Confira os detalhes e dê início ao acompanhamento.</p>
+                </div>
+                <div class="notification-item">
+                    <h3>Follow-up Pendentes</h3>
+                    <p>Existem follow-ups pendentes que precisam ser realizados. Acesse a lista para atualizações.</p>
+                </div>
+                <div class="notification-item">
+                    <h3>Lembrete Importante</h3>
+                    <p>Não se esqueça da reunião agendada para amanhã às 10h. Prepare-se para a discussão.</p>
+                </div>
+            </div>
         </div>
-        
         <div id="content-2">
-            <h2>seção-2</h2>
+            <!-- Cadastro de Clientes -->
+            <div class="section">
+                <h2>Cadastro de Clientes</h2>
+                <hr>
+                <form id="customerForm">
+                    <div class="form-group">
+                        <label for="customerName">Nome do Cliente</label>
+                        <input type="text" id="customerName" name="customerName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact">Contato</label>
+                        <input type="text" id="contact" name="contact" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="purchaseHistory">Histórico de Compras</label>
+                        <textarea id="purchaseHistory" name="purchaseHistory" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Salvar Cliente</button>
+                </form>
+            </div>
+        
+            <!-- Segmentação de Leads -->
+            <div class="section">
+                <h2>Segmentação de Leads</h2>
+                <hr>
+                <form id="leadSegmentationForm">
+                    <div class="form-group">
+                        <label for="leadStage">Estágio no Funil de Vendas</label>
+                        <select id="leadStage" name="leadStage">
+                            <option value="prospect">Prospect</option>
+                            <option value="qualified">Qualificado</option>
+                            <option value="negotiation">Negociação</option>
+                            <option value="closed">Fechado</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="industry">Setor</label>
+                        <select id="industry" name="industry">
+                            <option value="">Todos os Setores</option>
+                            <option value="technology">Tecnologia</option>
+                            <option value="finance">Finanças</option>
+                            <option value="healthcare">Saúde</option>
+                            <option value="education">Educação</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn">Segmentar Leads</button>
+                </form>
+            </div>
+        
+            <!-- Histórico de Interações -->
+            <div class="section">
+                <h2>Histórico de Interações</h2>
+                <hr>
+                <form id="interactionForm">
+                    <div class="form-group">
+                        <label for="interactionDate">Data da Interação</label>
+                        <input type="date" id="interactionDate" name="interactionDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="interactionType">Tipo de Interação</label>
+                        <select id="interactionType" name="interactionType">
+                            <option value="call">Ligação</option>
+                            <option value="email">E-mail</option>
+                            <option value="meeting">Reunião</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="interactionDetails">Detalhes da Interação</label>
+                        <textarea id="interactionDetails" name="interactionDetails" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Registrar Interação</button>
+                </form>
+            </div>
         </div>
-
         <div id="content-3">
-            <h2>seção-3</h2>
-        </div>
+            <!-- Criação e Gerenciamento de Pedidos -->
+            <div class="section">
+                <h2>Criação e Gerenciamento de Pedidos</h2>
+                <hr>
+                <form id="orderForm">
+                <div class="form-group">
+                    <label for="orderDate">Data do Pedido</label>
+                    <input type="date" id="orderDate" name="orderDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="customer">Cliente</label>
+                    <input type="text" id="customer" name="customer" required>
+                </div>
+                <div class="form-group">
+                    <label for="items">Itens do Pedido</label>
+                    <input type="text" id="items" name="items" required>
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Quantidade</label>
+                    <input type="number" id="quantity" name="quantity" required>
+                </div>
+                <div class="form-group">
+                    <label for="paymentMethod">Forma de Pagamento</label>
+                    <select id="paymentMethod" name="paymentMethod" required>
+                        <option value="creditCard">Cartão de Crédito</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="bankTransfer">Transferência Bancária</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="notes">Observações</label>
+                    <textarea id="notes" name="notes" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn">Criar Pedido</button>
+                </form>
+            </div>
 
+            <!-- Acompanhamento do Status do Pedido -->
+            <div class="section">
+                <h2>Acompanhamento do Status do Pedido</h2>
+                <hr>
+                <form id="statusForm">
+                    <div class="form-group">
+                        <label for="orderId">ID do Pedido</label>
+                        <input type="text" id="orderId" name="orderId" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="orderStatus">Status Atual</label>
+                        <select id="orderStatus" name="orderStatus" required>
+                            <option value="processing">Em Processamento</option>
+                            <option value="shipped">Enviado</option>
+                            <option value="delivered">Entregue</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="updateDate">Data de Atualização</label>
+                        <input type="date" id="updateDate" name="updateDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="updateHistory">Histórico de Atualizações</label>
+                        <textarea id="updateHistory" name="updateHistory" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Atualizar Status</button>
+                </form>
+            </div>
+
+            <!-- Catálogo de Produtos -->
+            <div class="section">
+                <h2>Catálogo de Produtos</h2>
+                <hr>
+                <form id="catalogSearchForm">
+                    <div class="form-group">
+                        <label for="categoryFilter">Filtro por Categoria</label>
+                        <select id="categoryFilter" name="categoryFilter">
+                            <option value="">Todas as Categorias</option>
+                            <option value="electronics">Eletrônicos</option>
+                            <option value="clothing">Roupas</option>
+                            <option value="home">Casa</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="searchProduct">Busca por Nome ou Código</label>
+                        <input type="text" id="searchProduct" name="searchProduct">
+                    </div>
+                    <button type="submit" class="btn">Buscar</button>
+                </form>
+
+                <!-- Tabela de Produtos -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Código do Produto</th>
+                            <th>Nome do Produto</th>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                            <th>Estoque Disponível</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Exemplo de Produto -->
+                        <tr>
+                            <td>001</td>
+                            <td>Produto Exemplo</td>
+                            <td>Descrição do produto exemplo.</td>
+                            <td>R$100,00</td>
+                            <td>20</td>
+                        </tr>
+                        <!-- Mais produtos podem ser listados aqui -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
         <div id="content-4">
-            <h2>seção-4</h2>
+            <div class="section">
+                <h2>Relatórios de Vendas</h2>
+                <hr>
+                <form id="salesReportForm">
+                    <div class="form-group">
+                        <label for="reportPeriod">Período</label>
+                        <input type="date" id="startDate" name="startDate" required>
+                        <input type="date" id="endDate" name="endDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reportProduct">Produto</label>
+                        <select id="reportProduct" name="reportProduct">
+                            <option value="">Todos os Produtos</option>
+                            <option value="product1">Produto 1</option>
+                            <option value="product2">Produto 2</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="reportClient">Cliente</label>
+                        <input type="text" id="reportClient" name="reportClient">
+                    </div>
+                    <button type="submit" class="btn">Gerar Relatório</button>
+                </form>
+            </div>
+        
+            <!-- Análise de Desempenho -->
+            <div class="section">
+                <h2>Análise de Desempenho</h2>
+                <hr>
+                <div class="metrics">
+                    <div class="metric">
+                        <h3 id="conversionRate">0%</h3>
+                        <p>Taxa de Conversão</p>
+                    </div>
+                    <div class="metric">
+                        <h3 id="avgSaleValue">R$0,00</h3>
+                        <p>Valor Médio de Venda</p>
+                    </div>
+                    <div class="metric">
+                        <h3 id="responseTime">0h 0m</h3>
+                        <p>Tempo de Resposta</p>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Metas e KPI’s -->
+            <div class="section">
+                <h2>Metas e KPI’s</h2>
+                <hr>
+                <form id="kpiForm">
+                    <div class="form-group">
+                        <label for="salesTarget">Meta de Vendas</label>
+                        <input type="number" id="salesTarget" name="salesTarget" placeholder="R$" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="kpiMetrics">KPI's</label>
+                        <textarea id="kpiMetrics" name="kpiMetrics" rows="4" placeholder="Liste os KPIs..."></textarea>
+                    </div>
+                    <button type="submit" class="btn">Atualizar Metas</button>
+                </form>
+            </div>
+        
         </div>
-
         <div id="content-5">
-            <h2>seção-5</h2>
+             <!-- FAQ -->
+            <div class="section">
+                <h2>FAQ - Perguntas Frequentes</h2>
+                <hr>
+                <div class="faq-item">
+                    <h3 onclick="toggleFAQ('faq1')">Como faço para redefinir minha senha?</h3>
+                    <p id="faq1">Para redefinir sua senha, clique em "Esqueci minha senha" na página de login e siga as instruções enviadas para o seu e-mail.</p>
+                </div>
+                <div class="faq-item">
+                    <h3 onclick="toggleFAQ('faq2')">Como posso atualizar minhas informações de contato?</h3>
+                    <p id="faq2">Para atualizar suas informações de contato, acesse a seção "Meu Perfil" e edite suas informações na aba "Dados Pessoais".</p>
+                </div>
+                <div class="faq-item">
+                    <h3 onclick="toggleFAQ('faq3')">Qual é o horário de atendimento do suporte técnico?</h3>
+                    <p id="faq3">O suporte técnico está disponível de segunda a sexta-feira, das 9h às 18h. Em casos de urgência, você pode abrir um chamado fora do horário comercial.</p>
+                </div>
+            </div>
+
+            <!-- Suporte ao Cliente -->
+            <div class="section">
+                <h2>Suporte ao Cliente</h2>
+                <hr>
+                <form id="supportForm">
+                    <div class="form-group">
+                        <label for="customerName">Nome</label>
+                        <input type="text" id="customerName" name="customerName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="customerEmail">E-mail</label>
+                        <input type="email" id="customerEmail" name="customerEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="issueType">Tipo de Problema</label>
+                        <select id="issueType" name="issueType">
+                            <option value="technical">Problema Técnico</option>
+                            <option value="billing">Questão de Faturamento</option>
+                            <option value="general">Dúvida Geral</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="issueDescription">Descrição do Problema</label>
+                        <textarea id="issueDescription" name="issueDescription" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Solicitação</button>
+                </form>
+            </div>
         </div>
     </section>
-    <script>
-        function showSection(id) {
-            // Oculta todas as seções
-            var sections = document.querySelectorAll('.main > div[id^="content-"]');
-            sections.forEach(function(section) {
-                section.style.display = 'none';
-            });
-    
-            // Mostra a seção desejada
-            var sectionToShow = document.getElementById(id);
-            if (sectionToShow) {
-                sectionToShow.style.display = 'block';
-            }
-        }
-    
-        // Inicialmente, exibe a primeira seção
-        document.addEventListener('DOMContentLoaded', function() {
-            showSection('content-1'); // Altere para o ID da seção que você deseja exibir por padrão
-        });
-    </script>
 </body>
 </html>
 
