@@ -1,0 +1,98 @@
+/* Configura o fundo da página e o alinhamento do container */
+.container-body {
+    /*background-image: url("Tech Lancers - Simple.png");*/
+    background:linear-gradient(90deg, rgb(0, 108, 141) 0%, rgba(9,9,121,1) 44%, rgb(0, 55, 66) 100%);  
+    /*background-repeat: no-repeat;*/
+   /* background-position: center;*/
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+
+/* Estilo das imagens */
+img {
+    height: 190px;
+}
+
+/* Estilo do container .Login */
+.container-body .Login {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+/* Estilo do container .Informacao */
+.container-body .Informacao {
+    width: 750px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+/* Estilo dos inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid;
+    opacity: 85%;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilo dos botões */
+button {
+    width: 50%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Efeito hover do botão */
+button:hover {
+    background-color: #24f724;
+}
+
+/* Estilo dos links */
+
+/* Estilo dos títulos */
+
+#titulo1 {
+    text-align: center;
+    background-image:-webkit-linear-gradient(left,rgb(70, 209, 255), rgb(1, 1, 255));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+
+a{
+    text-align: center;
+}
