@@ -59,34 +59,31 @@ header{
   background-color: white;
   height: 100%;
 }
+.sidebar a{
+  font-size: 18px;
+  padding-left: 10px;
+}
 .sidebar a:hover{
   border-left: 6px solid #73b4ff;
-  background-color: #d2d5d8;
+  background-color: #ebeef1;
   color: rgb(44, 44, 44);
   font-weight: bold;
-}
-.sidebar a:hover > span{
-  color: black;
-
+  padding-left: 20px;
 }
 .sidebar h3{
   color: rgb(0, 0, 0);
-  font-size: 18px;
+  font-size: 24px;
   margin: 10px;
 }
 .sidebar a{
   display: block;
   text-decoration: none;
-  margin-left: 15px;
-  color: #999a9b;
-}
-.sidebar a > span{
-  color: #999a9b;
-  margin-right: 10px;
+  padding-left: 5%;
+  color: #5c5d5e;
 }
 #content-1{
   width: 80%;
-  background-color: #d2d5d8;
+  background-color: #ebeef1;
   padding: 20px;
 }
 .titulo-secao{
@@ -122,4 +119,273 @@ h3{
   margin: 0 10px;
   padding: 20px;
 }
+.section {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.notification-item {
+  background: #ffffff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.notification-item h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #343a40;
+}
+.notification-item p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #6c757d;
+}
+.btn {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
 
+#content-2{
+  width: 80%;
+  background-color: #ebeef1;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+.form-group input:focus, .form-group textarea:focus {
+  border-color: #80bdff;
+  outline: none;
+}
+.form-group button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.form-group button:hover {
+  background-color: #0056b3;
+}
+.form-group small {
+  display: block;
+  margin-top: 5px;
+  color: #6c757d;
+}
+.form-group .error {
+  color: #dc3545;
+  font-size: 14px;
+}
+/*GESTÂO DE PEDIDOS*/
+
+#content-3{
+  width: 80%;
+  background-color: #ebeef1;
+  padding: 20px;
+}
+
+.section {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input, .form-group select, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+table, th, td {
+  border: 1px solid #ddd;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #f4f4f4;
+}
+/*SEÇÃO RELATORIO */
+
+#content-4{
+  width: 80%;
+  background-color: #ebeef1;
+  padding: 20px;
+}
+.section {
+            background: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, 
+        .form-group select, 
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .btn {
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #dee2e6;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #e9ecef;
+        }
+        .metrics {
+            display: flex;
+            justify-content: space-between;
+        }
+        .metrics .metric {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+        }
+        .metrics .metric h3 {
+            margin: 0;
+            font-size: 24px;
+            color: #007bff;
+        }
+
+/*SEÇÃO SUPORTE*/
+#content-5{
+  width: 80%;
+  background-color: #ebeef1;
+  padding: 20px;
+}
+.section {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.faq-item {
+  margin-bottom: 15px;
+}
+.faq-item h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #007bff;
+  cursor: pointer;
+}
+.faq-item p {
+  margin: 5px 0;
+  padding: 0 10px;
+  display: none;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.form-group input, 
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.btn {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
